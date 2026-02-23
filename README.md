@@ -8,7 +8,7 @@ An Android application that searches for GitHub users and provides detailed stat
 
 The project follows the **Clean Architecture** pattern to ensure separation of concerns and testability:
 
-* **Presentation Layer**: Built with **Jetpack Compose** and **MVVM**. It observes UI states from the ViewModel using Kotlin Flows.
+* **Feature Layer**: Built with **Jetpack Compose** and **MVVM**. It observes UI states from the ViewModel using Kotlin Flows.
 * **Domain Layer**: Contains the core business logic, including UseCases for user searching and repository data aggregation.
 * **Data Layer**: Responsible for data fetching via **Retrofit**. It implements the Repository pattern to abstract the data sources from the domain layer.
 
